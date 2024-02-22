@@ -1,0 +1,55 @@
+#include "Stock.h"
+
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <string>
+
+Stock::Stock(string n, string t, double p, int q){
+  name = n; //replace with setter methods
+  ticker = t;
+  price = p;
+  quantity = q;
+}
+
+
+/* - - - Getter Methods - - - */
+/*
+string Stock::getKey() {
+  //stuff
+}
+
+string Stock::getName() {
+  return name;
+}
+
+string Stock::getTicker() {
+  return ticker;
+}
+
+double Stock::getPrice() {
+  return price;
+}
+
+int Stock::getQuantity() {
+  return quantity;
+}
+*/
+/* - - - Setter Methods - - - */
+/*
+void Stock::setTicker(string t) {
+  ticker = t;
+}
+
+void Stock::setName(string n) {
+  name = n;
+}
+
+void Stock::setPrice(double p) {
+  price = p;
+}
+
+void Stock::setQuantity(int q) {
+  quantity = q;
+}
+*/

@@ -1,0 +1,89 @@
+1. test displaying an empty tree: 
+Empty Tree 
+
+----------------------------------------------------
+
+2.test inserting one element(AES)
+
+----------------------------------------------------
+
+3.test displaying a tree with one element(AES):
+
+Root-->: AES
+
+----------------------------------------------------
+
+4. test inserting a right child(MMM) and a left child(ABBV): 
+
+                MMM
+
+Root-->: AES
+
+                ABBV
+
+----------------------------------------------------
+
+5. and then a right child of the left child(ACN):
+
+                MMM
+
+Root-->: AES
+
+                        ACN
+
+                ABBV
+
+----------------------------------------------------
+
+6. and then a right child of the right child(PLUG):
+
+                        PLUG
+
+                MMM
+
+Root-->: AES
+
+                        ACN
+
+                ABBV
+
+----------------------------------------------------
+
+7. and then a few more(LNT and ABB):
+
+                        PLUG
+
+                MMM
+
+                        LNT
+
+Root-->: AES
+
+                        ACN
+
+                ABBV
+
+                        ABB
+
+----------------------------------------------------
+
+8. and finally,(GOOGL):
+
+                        PLUG
+
+                MMM
+
+                        LNT
+
+                                GOOGL
+
+Root-->: AES
+
+                        ACN
+
+                ABBV
+
+                        ABB
+
+----------------------------------------------------
+

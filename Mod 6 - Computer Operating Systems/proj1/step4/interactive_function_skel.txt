@@ -1,0 +1,15 @@
+void interactive(){
+   // variable declarations go here
+
+   // display initial my_shell: prompt
+
+   while ( ... you read in the line of input into line_buf using getline ... ){
+      parse(line_buf, my_args);
+
+		// later we'll add more special-case code here
+		// but for now, just execute whatever the user typed in
+		execute(my_args);
+      // display my_shell: prompt again
+   }
+}
+

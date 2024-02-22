@@ -1,0 +1,66 @@
+[00:08:21] dbrophy@cirrus2:~/mscsready/mod4/proj2 [22] make StockTreeTester1
+g++ -ggdb -o StockTreeTester1 StockTree.cpp StockTreeTester1.cpp Stock.cpp
+[00:08:37] dbrophy@cirrus2:~/mscsready/mod4/proj2 [23] ./StockTreeTester1 
+1. test displaying an empty tree: 
+Empty
+
+----------------------------------------------------
+
+2.test inserting one element(AES)
+
+----------------------------------------------------
+
+3.test displaying a tree with one element(AES):
+AES 
+
+----------------------------------------------------
+
+4. test inserting a right child(MMM) and a left child(ABBV): 
+AES MMM ABBV 
+
+----------------------------------------------------
+
+[00:08:39] dbrophy@cirrus2:~/mscsready/mod4/proj2 [24] make StockTreeTester1
+g++ -ggdb -o StockTreeTester1 StockTree.cpp StockTreeTester1.cpp Stock.cpp
+[00:11:42] dbrophy@cirrus2:~/mscsready/mod4/proj2 [25] ./StockTreeTester1 
+1. test displaying an empty tree: 
+Empty
+
+----------------------------------------------------
+
+2.test inserting one element(AES)
+
+----------------------------------------------------
+
+3.test displaying a tree with one element(AES):
+AES 
+
+----------------------------------------------------
+
+4. test inserting a right child(MMM) and a left child(ABBV): 
+AES ABBV 
+
+----------------------------------------------------
+
+[00:11:43] dbrophy@cirrus2:~/mscsready/mod4/proj2 [26] make StockTreeTester1
+make: 'StockTreeTester1' is up to date.
+[00:13:05] dbrophy@cirrus2:~/mscsready/mod4/proj2 [27] ./StockTreeTester1 
+1. test displaying an empty tree: 
+Empty
+
+----------------------------------------------------
+
+2.test inserting one element(AES)
+
+----------------------------------------------------
+
+3.test displaying a tree with one element(AES):
+AES 
+
+----------------------------------------------------
+
+4. test inserting a right child(MMM) and a left child(ABBV): 
+AES ABBV 
+
+----------------------------------------------------
+

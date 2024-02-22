@@ -1,0 +1,65 @@
+1. test displaying an empty tree: 
+Empty
+
+----------------------------------------------------
+
+2.test inserting one element(AES)
+
+----------------------------------------------------
+
+3.test displaying a tree with one element(AES):
+AES 
+
+----------------------------------------------------
+
+4. test inserting a right child(MMM) and a left child(ABBV): 
+ABBV AES MMM 
+
+----------------------------------------------------
+
+5. and then a right child of the left child(ACN):
+ABBV ACN AES MMM 
+
+----------------------------------------------------
+
+6. and then a right child of the right child(PLUG):
+ABBV ACN AES MMM PLUG 
+
+----------------------------------------------------
+
+7. and then a few more(LNT and ABB):
+ABB ABBV ACN AES LNT MMM PLUG 
+
+----------------------------------------------------
+
+8. and finally,(GOOGL):
+ABB ABBV ACN AES GOOGL LNT MMM PLUG 
+
+----------------------------------------------------
+
+9. test the contains method: 
+MMM is in myStockTree
+AMD is NOT in myStockTree
+
+----------------------------------------------------
+
+10. test inserting a repeat element: (MMM again) 
+MMM is a duplicate
+ABB ABBV ACN AES GOOGL LNT MMM PLUG 
+
+----------------------------------------------------
+
+11. test finding the node containing a given ticker symble (MMM)
+Note: 'find' would normally be a private method. 
+It is only public here so that we can test it from the tester program.
+found: MMM
+
+----------------------------------------------------
+
+12. test finding the node containing a given ticker symble (UBX)
+Note: 'find' would normally be a private method. 
+It is only public here so that we can test it from the tester program.
+UBX not found, but it would be added here:PLUG
+
+----------------------------------------------------
+

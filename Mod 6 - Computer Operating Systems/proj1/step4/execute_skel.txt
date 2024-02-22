@@ -1,0 +1,15 @@
+void execute(char **argv){
+	pid_t pid
+	int status;
+
+	// fork a child process and check the return value for errors
+	// if error then print *** ERROR: forking child process failed"
+	// and exit with error code 1
+
+	// if the return value indicates that this is the child
+	// invoke execvp, using the content of the argv array for parameters
+
+	// if the return value indicates that this is the parent 
+	// wait for the child; capture child status in the int status variable
+ 
+}

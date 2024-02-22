@@ -1,0 +1,2 @@
+ABB  :  200 @ $   33.63 (Abbott Laboratories)
+ATVI : 1000 @ $   75.45 (Activision Blizzard)

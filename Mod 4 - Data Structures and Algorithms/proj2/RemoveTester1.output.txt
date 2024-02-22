@@ -1,0 +1,31 @@
+first, display the empty tree: 
+
+Empty Tree 
+
+then: 
+
+case 1: attempt to remove from an empty tree by key value(AES): 
+
+Empty Tree 
+
+----------------------------------------------------
+
+create a tree with one element (AES): 
+
+Root-->: AES
+
+then: 
+
+case 2a: attempt to remove an element not found in the tree (UBX): 
+
+
+Root-->: AES
+
+----------------------------------------------------
+
+case 2b: remove an element found in a one-node tree (AES), by key value: 
+
+Empty Tree 
+
+---- End of RemoveTester 1 -----------------------
+

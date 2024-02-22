@@ -1,0 +1,155 @@
+---------------------------------------
+
+case 1: insert one element (ABBV) 
+0: 
+1: 
+2: 
+3: 
+4: 
+5: ABBV ->  nullptr
+6: 
+7: 
+8: 
+9: 
+10: 
+
+---------------------------------------
+
+case 2: insert additional elements(ABB, ACN, MMM): 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: 
+4: 
+5: ABBV ->  nullptr
+6: 
+7: 
+8: 
+9: 
+10: 
+
+---------------------------------------
+
+case 3: insert anonymous stock object (ALXN): 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: 
+4: 
+5: ABBV ->  nullptr
+6: 
+7: 
+8: ALXN ->  nullptr
+9: 
+10: 
+
+---------------------------------------
+
+case 4: insert AES, SONY, TSLA, TAP, ALGN, ALK, ALL, ALLE: 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: ABBV ->  nullptr
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> SONY -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: ALL -> ALLE ->  nullptr
+
+---------------------------------------
+
+case 5: test find  method (MMM and AMD) 
+found: MMM  : 1000 @ $  198.27 (3M Corp.)
+AMD is not in the table 
+---------------------------------------
+
+case 6: test insert of repeat element: (MMM again) 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: ABBV ->  nullptr
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> SONY -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: ALL -> ALLE ->  nullptr
+
+ ---------------------------------------
+
+case 7: test removal of by key value (ABBV) : 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: 
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> SONY -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: ALL -> ALLE ->  nullptr
+
+---------------------------------------
+
+case 8: test removal of middle element in list (SONY)  
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: 
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: ALL -> ALLE ->  nullptr
+
+---------------------------------------
+
+case 9: test removal of tail element in list (ALLE) 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: 
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: ALL ->  nullptr
+
+---------------------------------------
+
+case 10: test removal of front element in list (ALL) 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: 
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: 
+
+ ---------------------------------------
+
+case 11: test removal of element not in the list: (LNT) 
+0: ABB -> MMM ->  nullptr
+1: ACN ->  nullptr
+2: 
+3: TAP ->  nullptr
+4: 
+5: 
+6: AES -> TSLA ->  nullptr
+7: 
+8: ALXN -> ALGN ->  nullptr
+9: ALK ->  nullptr
+10: 
+

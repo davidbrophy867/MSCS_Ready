@@ -1,0 +1,41 @@
+stock 1: name: null , ticker: nul , price: $ 0.00 , quantity: 0
+
+stock 2: name: Abbott Laboratories , ticker: ABB , price: $33.63 , quantity: 200
+
+But now we've changed stock 2, as seen here:  
+stock 2: name: ABBVie , ticker: ABBV , price: $152.05 , quantity: 1000
+
+*stockPtr3: name: null , ticker: nul , price: $ 0.00 , quantity: 0
+
+*stockPtr4: name: Activision Blizzard , ticker: ATVI , price: $75.45 , quantity: 1000
+
+But now we've changed stock 4, as seen here:  
+stock 4: name: Amazon , ticker: AMZN , price: $97.61 , quantity: 1000
+
+stock 6 is a copy of stock 2: name: ABBVie , ticker: ABBV , price: $152.05 , quantity: 1000
+
+Now we change the price of stock 6.
+stock 6: ABBVie,ABBV,126.44,1000
+and see that stock 2 is unchanged -- 6 is a separate copy 
+stock 2: ABBVie,ABBV,152.05,1000
+This is also true with dynamically allocated Stock objects.
+*stockPtr5 is a copy of *stockPtr4 
+*stockPtr5: Amazon, AMZN , 97.61 , 1000
+
+*stockPtr4: Amazon, AMZN , 97.61 , 1000
+
+And if we make a change to *stock5Ptr, *stock4Ptr is unaffected.
+*stockPtr5: Amazon, AMZN , 101.44 , 1000
+
+*stockPtr4: Amazon, AMZN , 97.61 , 1000
+
+But notice that if two pointer point to the same thing,
+then changes through one pointer affect the object, 
+which is also referred to by the second pointer
+
+Before: *stockPtr7: Allstate Corp, ALL , 135.41 , 1000
+Before: *stockPtr8: Allstate Corp, ALL , 135.41 , 1000
+
+After: *stockPtr7: Allstate Corp, ALL , 188.88 , 1000
+After: *stockPtr8: Allstate Corp, ALL , 188.88 , 1000
+

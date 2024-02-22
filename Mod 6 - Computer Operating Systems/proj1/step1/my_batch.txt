@@ -1,0 +1,3 @@
+ls -l -t
+who
+cat batch.txt > batch.copy.txt

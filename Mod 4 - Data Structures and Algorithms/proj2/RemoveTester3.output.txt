@@ -1,0 +1,69 @@
+sample tree: 
+
+                        PLUG
+
+                MMM
+
+                        LNT
+
+                                GOOGL
+
+Root-->: AES
+
+                        ACN
+
+                ABBV
+
+                        ABB
+
+7a: and then test removing a leaf node (GOOGL): 
+
+
+                        PLUG
+
+                MMM
+
+                        LNT
+
+Root-->: AES
+
+                        ACN
+
+                ABBV
+
+                        ABB
+
+----------------------------------------------------
+
+7b: and then test removing another leaf node (ACN): 
+
+
+                        PLUG
+
+                MMM
+
+                        LNT
+
+Root-->: AES
+
+                ABBV
+
+                        ABB
+
+----------------------------------------------------
+
+8:and then test removing an internal node with 2 children (MMM) 
+
+
+                        PLUG
+
+                LNT
+
+Root-->: AES
+
+                ABBV
+
+                        ABB
+
+---- End of RemoveTester 3 -----------------------
+

@@ -1,0 +1,5 @@
+root is: ABBV AbbVie 116 1000
+the root's left child  is: ABB Abbott Laboratories 35 200
+the root's right child  is: ACN Accenture 309 1000
+ACN's parent is: ABBV
+ABB's parent is: ABBV

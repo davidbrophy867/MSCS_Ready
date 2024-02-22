@@ -1,0 +1,57 @@
+A,Agilent Technologies,155.36,1000
+AAL,American Airlines Group,21.6322,200
+AAPL,Apple,150.266,1000
+ABB,Abbott Laboratories,36.4195,200
+ABBV,AbbVie,120.484,1000
+ABC,AmerisourceBergen,119.22,1000
+ABMD,Abiomed,336.588,500
+ACN,Accenture,320.134,1000
+ADBE,Adobe,625.977,500
+ADI,Analog Devices,172.178,200
+ADM,ADM,62.4631,500
+ADP,Automatic Data Processing,210.959,500
+ADSK,Autodesk,305.875,1000
+AEE,Ameren Corp,84.8305,1000
+AEP,American Electric Power,88.4238,1000
+AES,AES Corp,26.6441,1000
+AFL,Aflac,55.2455,500
+AIG,American International Group,48.5353,1000
+AIZ,Assurant,162.569,1000
+AJG,Arthur J. Gallagher & Co.,145.492,1000
+AKAM,Akamai Technologies,122.086,500
+ALB,Albemarle Corporation,181.746,200
+ALGN,Align Technology,649.473,1000
+ALK,Alaska Air Group,61.4898,1000
+ALL,Allstate Corp,138.212,1000
+ALLE,Allegion,143.182,500
+ALXN,Alexion Pharmaceuticals,190.745,1000
+AMAT,Applied Materials,139.694,1000
+AMCR,Amcor,11.9188,500
+AMD,Advanced MicroA Devices,94.1298,200
+AME,Ametek,140.283,1000
+AMGN,Amgen,253.911,1000
+AMP,Ameriprise Financial,257.796,1000
+AMT,American Tower,288.342,1000
+AMZN,Amazon,3851.49,1000
+ANET,Arista Networks,391.462,1000
+ANSS,Ansys,366.329,500
+ANTM,Anthem,402.417,1000
+AOS,A. O. Smith,244.704,1000
+APA,APA Corporation,21.3008,1000
+APD,Air Products & Chemicals,302.033,200
+APH,Amphenol Corp,72.8079,1000
+APTV,Aptiv,161.14,1000
+ARE,Alexandria Real Estate Equities,197.321,500
+ATO,Atmos Energy,102.031,1000
+ATVI,Activision Blizzard,95.6622,1000
+AVB,AvalonBay Communities,228.676,1000
+AVY,Avery Dennison,217.824,200
+AWK,American Water Works,168.046,500
+AXP,American Express,178.049,1000
+AZO,Autozone,1620.11,1000
+GOOG,Alphabet(Class C),2683.56,1000
+GOOGL,Alphabet(Class A),2599.55,200
+LNT,Alliant Energy,58.7766,1000
+MMM,3M,205.312,1000
+MO,Altria Group,49.0842,1000
+T,AT&T,29.4608,200

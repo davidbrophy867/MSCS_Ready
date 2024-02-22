@@ -1,0 +1,108 @@
+4: sample tree with one node: 
+
+Root-->: AES
+
+and then test removing the root, by pointer to Stock object: (AES): 
+
+Empty Tree
+
+----------------------------------------------------
+
+case 5a: sample tree in which root has one (left) child: 
+
+Root-->: AES
+
+	        ABBV
+
+and then test removing the root, in one-child (left) case (AES): 
+
+
+Root-->: ABBV
+
+----------------------------------------------------
+
+case 5b: sample tree in which root has one (right) child: 
+
+	        AES
+
+Root-->: ABBV
+
+and then test removing the root, in one-child (right) case (ABBV): 
+
+
+Root-->: AES
+
+----------------------------------------------------
+
+case 5c: sample tree in which root has one left child, not a leaf: 
+
+Root-->: AES
+
+	        ABBV
+
+		        ABB
+
+and then test removing the root, in one-child (left) case (AES):
+
+
+Root-->: ABBV
+
+	        ABB
+
+----------------------------------------------------
+
+case 5d: sample tree in which root has one right child, not a leaf 
+
+
+		        PLUG
+
+	        MMM
+
+Root-->: AES
+
+and then test removing the root, in one-child (right) case (AES): 
+
+
+	        PLUG
+
+Root-->: MMM
+
+----------------------------------------------------
+
+case 6: build a tree in which root has 2 children, multiple nodes 
+
+		        PLUG
+
+	        MMM
+
+		        LNT
+
+			        GOOGL
+
+Root-->: AES
+
+		        ACN
+
+	        ABBV
+
+		        ABB
+
+and then : test removing a root node with two children, by key value (AES): 
+Note: we replace root with rightmost child of the left subtree.
+
+
+		        PLUG
+
+	        MMM
+
+		        LNT
+
+			        GOOGL
+
+Root-->: ACN
+
+	        ABBV
+
+		        ABB
+---- End of RemoveTester 2 -----------------------
+

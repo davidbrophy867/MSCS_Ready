@@ -1,0 +1,88 @@
+sample tree a : 
+
+                MMM
+
+Root-->: AES
+
+                ABBV
+
+                        ABB
+
+9a: and then test removing a left child with a left child (ABBV):
+left, left
+
+                MMM
+
+Root-->: AES
+
+                ABB
+
+----------------------------------------------------
+
+sample tree b: 
+
+                MMM
+
+Root-->: AES
+
+                        ACN
+
+                ABB
+
+9b:and then test removing a left child with a right child(ABB):  
+left, right
+
+                MMM
+
+Root-->: AES
+
+                ACN
+
+----------------------------------------------------
+
+sample tree c: 
+
+                        PLUG
+
+                MMM
+
+Root-->: AES
+
+                ACN
+
+9c:and then test removing a right child with a right child(MMM):  
+right, right
+
+                PLUG
+
+Root-->: AES
+
+                ACN
+
+----------------------------------------------------
+
+sample tree d: 
+
+                PLUG
+
+                        LNT
+
+                                GOOGL
+
+Root-->: AES
+
+                ACN
+
+9d:and then test removing a right child with a left child(LNT):  
+left, left
+
+                PLUG
+
+                        GOOGL
+
+Root-->: AES
+
+                ACN
+
+---- End of RemoveTester 4 -----------------------
+

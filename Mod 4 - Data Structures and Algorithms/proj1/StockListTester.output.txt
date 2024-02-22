@@ -1,0 +1,67 @@
+test inserting one element: 
+ABBV :  116 @ $ 1000.00 (AbbVie)
+
+
+test inserting an element before head: 
+ABB  :   35 @ $  200.00 (Abbott Laboratories)
+ABBV :  116 @ $ 1000.00 (AbbVie)
+
+
+test inserting a new element at the end of the list 
+ABB  :   35 @ $  200.00 (Abbott Laboratories)
+ABBV :  116 @ $ 1000.00 (AbbVie)
+ACN  :  309 @ $ 1000.00 (Accenture)
+
+
+try a few more 
+ABB  :   35 @ $  200.00 (Abbott Laboratories)
+ABBV :  116 @ $ 1000.00 (AbbVie)
+ACN  :  309 @ $ 1000.00 (Accenture)
+AES  :   25 @ $ 1000.00 (AES Corp)
+MMM  :  198 @ $ 1000.00 (3M Corp.)
+
+
+test the contains method: 
+MMM is in the myStockList
+AMD is NOT in the myStockList
+
+test inserting a repeat element: (MMM again) 
+ABB  :   35 @ $  200.00 (Abbott Laboratories)
+ABBV :  116 @ $ 1000.00 (AbbVie)
+ACN  :  309 @ $ 1000.00 (Accenture)
+AES  :   25 @ $ 1000.00 (AES Corp)
+MMM  :  198 @ $ 1000.00 (3M Corp.)
+
+
+found: MMM  :  198 @ $ 1000.00 (3M Corp.)
+
+test removing the first element, by pointer to Stock object: (ABB) 
+ABBV :  116 @ $ 1000.00 (AbbVie)
+ACN  :  309 @ $ 1000.00 (Accenture)
+AES  :   25 @ $ 1000.00 (AES Corp)
+MMM  :  198 @ $ 1000.00 (3M Corp.)
+
+
+test removing the first element, by key value (ABBV ) : 
+ACN  :  309 @ $ 1000.00 (Accenture)
+AES  :   25 @ $ 1000.00 (AES Corp)
+MMM  :  198 @ $ 1000.00 (3M Corp.)
+
+
+test removing the tail element, by pointer to Stock object (MMM)  
+ACN  :  309 @ $ 1000.00 (Accenture)
+AES  :   25 @ $ 1000.00 (AES Corp)
+
+
+test removing the tail element, by ticker symbol (AES): 
+ACN  :  309 @ $ 1000.00 (Accenture)
+
+
+test removing an element not in the list: (LNT) 
+ACN  :  309 @ $ 1000.00 (Accenture)
+
+
+test removing the last element (ACN) to create an empty list 
+empty list 
+T not found
+

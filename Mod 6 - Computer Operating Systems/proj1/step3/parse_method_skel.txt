@@ -1,0 +1,19 @@
+
+void parse(char *line, char **my_args){
+   char *token;
+   int my_argc = 0;
+	
+	/* set all the elements of my_args to null (0) */
+   bzero(my_args,MAX_ARGS);
+
+	/* temporary code: echo out line received */
+
+	/* use strtok to pull out all the tokens 
+    * and put them into the my_args array
+	 */
+
+	/* temporary code: display the my_argc counter value
+    * and updated elements of the my_args vector 
+    */
+
+}

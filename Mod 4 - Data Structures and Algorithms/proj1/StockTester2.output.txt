@@ -1,0 +1,12 @@
+stock 1: name: Akamai Technologies , ticker: AKAM , price: $122.09 , quantity: 500
+The key value for stock 1 is:AKAM
+stock 2: name: Alaska Air Group , ticker: ALK , price: $61.49 , quantity: 1000
+The key value for stock 2 is:ALK
+stock 1 is less than stock 2
+stock 1 is less than or equal to stock 2
+stock 1 is not greater than stock 2
+stock 1 is not greater than or equal to stock 2
+stock 1 is not equal to stock 2
+stock 1 is equal to stock 3
+stock 1 has key value AKAM
+stock 2 does not have key value AKAM
